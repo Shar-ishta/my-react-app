@@ -19,7 +19,8 @@ function App() {
         </a>
       </div>
       <h1>Hello Shar, GSoC Journey started!!!</h1>
-      <Welcome />
+      <Welcome name="Shar" role="Future GSoC Contributer" />
+      <Welcome name="Have fun!" />
       <Motivation />
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>

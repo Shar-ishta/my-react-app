@@ -1,5 +1,10 @@
-function Welcome() {
-  return <h2>Welcome to my GSoC Journey</h2>
+function Welcome({name, role}) {
+  return( 
+  <div>
+    <h2>Welcome, {name}</h2>
+    <p>Your role : {role}</p>
+  </div>
+)
 }
 
 export default Welcome
