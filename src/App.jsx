@@ -5,6 +5,7 @@ import './App.css'
 import Welcome from './Welcome'
 import Motivation from './Motivation'
 
+
 function App() {
   const [count, setCount] = useState(0)
 
@@ -20,6 +21,10 @@ function App() {
       </div>
       <h1>Hello Shar, GSoC Journey started!!!</h1>
       <Welcome name="Shar" role="Future GSoC Contributer" />
+      <h2>Count : {count}</h2>
+      <button onClick={() => setCount(count + 1)}>
+        Click Me 
+      </button>
       <Welcome name="Have fun!" />
       <Motivation />
       <div className="card">
